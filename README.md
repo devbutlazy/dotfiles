@@ -5,6 +5,7 @@
 
 <pre align="center">
 <a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#">Other (Soon)</a></a>
+<a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#">Other (Soon)</a></a>
 </pre>
 
 
@@ -50,6 +51,7 @@ Comment selected code: CTRL + K + C
 Uncomment selected code: CTRL + K + U
 Format code: SHIFT + ALT + F
 Edit multiple rows: ALT + SELECT ROWS
+Other: Default
 ```
 
 # [lazydev.code-profile](https://github.com/devbutlazy/dotfiles/tree/main/vscode/lazydev.code-profile)
@@ -82,7 +84,9 @@ Comment selected code: CTRL + /
 Uncomment selected code: CTRL + /
 Format code: CTRL + ALT + L 
 Edit multiple rows: ALT + SELECT ROWS
+Other: Default
 ```
+
 # 
 ```
 Inspired by: https://github.com/nixxoq/dotfiles
