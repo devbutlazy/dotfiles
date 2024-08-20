@@ -87,7 +87,8 @@ Edit multiple rows: ALT + SELECT ROWS
 Other: Default
 ```
 
-# 
+# [settings.zip](https://github.com/devbutlazy/dotfiles/tree/main/pycharm/settings.zip)
+
 ```
 Inspired by: https://github.com/nixxoq/dotfiles
 ```
