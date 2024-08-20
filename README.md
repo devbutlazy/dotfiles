@@ -7,13 +7,6 @@
 <a href="#">SETUP ALL (Soon)</a> • <a href="#vscode">VSCODE</a> • <a href="#">JetBrains (PCH) (Soon)</a></a>
 </pre>
 
-<style>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
-
-
 ![image](https://github.com/user-attachments/assets/7895d19b-006c-4f0e-9270-78dfd13392ae)
 
 
