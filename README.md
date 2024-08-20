@@ -5,7 +5,6 @@
 
 <pre align="center">
 <a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#">Other (Soon)</a></a>
-<a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#">Other (Soon)</a></a>
 </pre>
 
 
