@@ -83,6 +83,7 @@ Uncomment selected code: CTRL + /
 Format code: CTRL + ALT + L 
 Edit multiple rows: ALT + SELECT ROWS
 ```
+# 
 ```
 Inspired by: https://github.com/nixxoq/dotfiles
 ```
