@@ -4,8 +4,9 @@
 </div>
 
 <pre align="center">
-<a href="#">SETUP ALL (Soon)</a> • <a href="#vscode">VSCODE</a> • <a href="#">JetBrains (PCH) (Soon)</a></a>
+<a href="#"><a href="#vscode">VSCODE</a> • <a href="#pycharm">Pycharm</a> • <a href="#">Other (Soon)</a></a>
 </pre>
+
 
 ![image](https://github.com/user-attachments/assets/7895d19b-006c-4f0e-9270-78dfd13392ae)
 
@@ -52,3 +53,36 @@ Edit multiple rows: ALT + SELECT ROWS
 ```
 
 # [lazydev.code-profile](https://github.com/devbutlazy/dotfiles/tree/main/vscode/lazydev.code-profile)
+
+<div align="center" id="pycharm">
+<h1>Pycharm</h1>
+</div>
+
+![image](https://github.com/user-attachments/assets/84809930-f5df-4887-918f-67bd8578d71d)
+
+
+# Plugins
+```
+Theme:
+- Monokai Pro - Filter Spectrum
+- Markdown Default
+
+Automations & Help:
+- Codeium (AI with autocomplete)
+- Docker (Dockerfile and Docker-Compose typehints)
+- YAML Default (.yml, .yaml files typehints)
+
+Other:
+- Discord Integration V2 (Show the coding process with details in Discord Status)
+```
+
+# Keybinds
+```
+Comment selected code: CTRL + /
+Uncomment selected code: CTRL + /
+Format code: CTRL + ALT + L 
+Edit multiple rows: ALT + SELECT ROWS
+```
+```
+Inspired by: https://github.com/nixxoq/dotfiles
+```
