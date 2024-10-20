@@ -1,0 +1,80 @@
+{
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "files.autoSave": "afterDelay",
+
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    "codeium.enableConfig": {
+        "*": true,
+        "bat": true,
+        "properties": true
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editorAssociations": {
+        "*.session-journal": "sqlite-viewer.option",
+        "*.session": "sqlite-viewer.option",
+        "*.db": "sqlite-viewer.option"
+    },
+    "workbench.colorCustomizations": {},
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.empty.hint": "hidden",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.codeLensFontFamily": "\"JetBrains Mono\"",
+    "workbench.sideBar.location": "right", // left, right
+    "editor.multiCursorModifier": "alt",
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnPaste": false, // true
+    "editor.formatOnSave": false, // true
+    "editor.fontLigatures": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.colors": false,
+    "explorer.compactFolders": false,
+
+    "catppuccin.accentColor": "sapphire",
+    "catppuccin.bracketMode": "neovim",
+    "catppuccin.workbenchMode": "flat",
+
+    "git.ignoreMissingGitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+
+    "json.schemas": [],
+
+    "window.title": " ",
+    "window.commandCenter": false,
+    "window.titleBarStyle": "native",
+    "window.customTitleBarVisibility": "auto",
+    "workbench.activityBar.location": "bottom",
+    "window.menuBarVisibility": "toggle",
+
+    "apc.font.family": "JetBrainsMono Nerd Font",
+    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden"
+    },
+    
+    "security.allowedUNCHosts": [
+        "wsl.localhost",
+        "wsl$"
+    ],
+    "git.ignoreLimitWarning": true,
+    "redhat.telemetry.enabled": true,
+    "git.autofetch": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "editor.definitionLinkOpensInPeek": true,
+    "workbench.colorTheme": "Catppuccin Mocha"
+}
