@@ -3,9 +3,12 @@
 <h1>LazyDev Dotfiles</h1>
 </div>
 
-<pre align="center">
-<a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#pwsh">Terminal</a></a>
-</pre>
+<div align="center">
+  <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
+  <a href="#setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
+  <a href="#credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
+</div>
 
 
 ![image](https://github.com/user-attachments/assets/a36dc04d-9c40-4154-bfea-38b8f28f906d)
