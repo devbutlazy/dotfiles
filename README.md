@@ -4,12 +4,12 @@
 </div>
 
 <div align="center">
-  <a href="#about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
-  <a href="#setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#gallery"><kbd> <br> 🖼️ Gallery <br> </kbd></a>&ensp;&ensp;
-  <a href="#credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
+  <a href="#vscode"><kbd> <br> 📂 VSCode <br> </kbd></a>&ensp;&ensp;
+  <a href="#pycharm"><kbd> <br> 📂 Pycharm <br> </kbd></a>&ensp;&ensp;
+  <a href="#pwsh"><kbd> <br> ♾️ Terminal <br> </kbd></a>&ensp;&ensp;
 </div>
 
+<br>
 
 ![image](https://github.com/user-attachments/assets/a36dc04d-9c40-4154-bfea-38b8f28f906d)
 
