@@ -103,10 +103,10 @@ Other: Default
 
 # ♾️ Installation
 
-- Install [Windows Terminal](https://github.com/microsoft/terminal) (WT)
-- Install [Powershell](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) and configure it as default terminal in WT
-- Download [my WT Settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json) and replace them in `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
-- Install [Scoop](https://scoop.sh/)
+- Install [Windows Terminal](https://github.com/microsoft/terminal) (WT);
+- Install [Powershell](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) and configure it as default terminal in WT;
+- Download [my WT Settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json) and replace them in yours;
+- Install [Scoop](https://scoop.sh/);
 - Install [Oh-My-Posh](https://ohmyposh.dev/) using scoop:
 ```
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
@@ -115,13 +115,13 @@ scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/downl
 ```
 $env:Path += ";C:\Users\YOUR_USER\AppData\Local\Programs\oh-my-posh\bin"
 ```
-- Install [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)
-- Install [GNUwin32](https://gnuwin32.sourceforge.net/packages/coreutils.htm) for GNU-like commands
+- Install [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/);
+- Install [GNUwin32](https://gnuwin32.sourceforge.net/packages/coreutils.htm) for GNU-like commands;
 - Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) (neofetch for windows) using scoop:
 ```
 scoop install fastfetch
 ```
-- Copy [my fastfetch config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch) to `C:\Users\<Username>\.config\fastfetch\config.conf`
+- Copy [my fastfetch config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch) to `C:\Users\<Username>\.config\fastfetch\config.conf`;
 - Install eza (enhanced version of "ls" GNU command) using scoop:
 ```
 scoop install eza
