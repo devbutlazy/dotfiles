@@ -4,7 +4,7 @@
 </div>
 
 <pre align="center">
-<a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#pwsh">Powershell (soon)</a></a>
+<a href="#"><a href="#vscode">VSCode</a> • <a href="#pycharm">Pycharm</a> • <a href="#pwsh">Terminal</a></a>
 </pre>
 
 
@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/77c53c36-1045-4647-ab20-a6aabd0731dd)
 
-# Plugins
+# 📂 Plugins
 ```
 Design:
 - Catppuccin for VSCode - Catppuccin Mocha (VSCode Theme)
@@ -47,7 +47,7 @@ Other:
 - Polacode-2022 (Beautiful screenshots [CTRL + SHITF + P -> Polacode])
 ```
 
-# Keybinds
+# >_ Keybinds
 ```
 Comment selected code: CTRL + K + C
 Uncomment selected code: CTRL + K + U
@@ -56,7 +56,7 @@ Edit multiple rows: ALT + SELECT ROWS
 Other: Default
 ```
 
-# [setting.json](https://github.com/devbutlazy/dotfiles/tree/main/vscode/settings.json)
+# [settings.json](https://github.com/devbutlazy/dotfiles/tree/main/vscode/settings.json)
 # [lazydev.code-profile](https://github.com/devbutlazy/dotfiles/tree/main/vscode/lazydev.code-profile)
 
 <div align="center" id="pycharm">
@@ -66,7 +66,7 @@ Other: Default
 ![image](https://github.com/user-attachments/assets/84809930-f5df-4887-918f-67bd8578d71d)
 
 
-# Plugins
+# 📂 Plugins
 ```
 Theme:
 - Monokai Pro - Filter Spectrum
@@ -81,7 +81,7 @@ Other:
 - Discord Integration V2 (Show the coding process with details in Discord Status)
 ```
 
-# Keybinds
+# >_ Keybinds
 ```
 Comment selected code: CTRL + /
 Uncomment selected code: CTRL + /
@@ -92,6 +92,57 @@ Other: Default
 
 # [settings.zip](https://github.com/devbutlazy/dotfiles/tree/main/pycharm/settings.zip)
 
+<div align="center" id="pwsh">
+<h1>Terminal</h1>
+</div>
+
+![image](https://github.com/user-attachments/assets/19acc8df-46e9-4e20-8d7f-5cb7c508067d)
+
+# ♾️ Installation
+
+- Install [Windows Terminal](https://github.com/microsoft/terminal) (WT)
+- Install [Powershell](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) and configure it as default terminal in WT
+- Download [my WT Settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json) and replace them in `C:\Users\<Username>\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`
+- Install [Scoop](https://scoop.sh/)
+- Install [Oh-My-Posh](https://ohmyposh.dev/) using scoop:
+```
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+```
+- Add oh-my-posh to environmental variables, typing to pwsh:
+```
+$env:Path += ";C:\Users\YOUR_USER\AppData\Local\Programs\oh-my-posh\bin"
+```
+- Install [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)
+- Install [GNUwin32](https://gnuwin32.sourceforge.net/packages/coreutils.htm) for GNU-like commands
+- Install [fastfetch](https://github.com/fastfetch-cli/fastfetch) (neofetch for windows) using scoop:
+```
+scoop install fastfetch
+```
+- Copy [my fastfetch config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch) to `C:\Users\<Username>\.config\fastfetch\config.conf`
+- Install eza (enhanced version of "ls" GNU command) using scoop:
+```
+scoop install eza
+```
+- Install bat (enhanced version of "cat" GNU command) using scoop:
+```
+scoop install bat
+```
+- Create a notepad (config file) in pwsh typing `notepad $profile`, and paste this:
+```
+Set-Alias -Name ls -Value eza
+Set-Alias -Name cat -Value bat
+Set-Alias -Name neofetch -Value fastfetch
+
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/catppuccin_mocha.omp.json' | Invoke-Expression
+```
+
+## All configs can be found [here](https://github.com/devbutlazy/dotfiles/tree/main/wt)
+
+### [Notepad $profile (config)](https://github.com/devbutlazy/dotfiles/tree/main/wt/notepad_profile.txt)
+### [Terminal settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json)
+### [Fastfetch (neofetch) config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch)
+
+#
 
 ```
 Inspired by: https://github.com/nixxoq/dotfiles
