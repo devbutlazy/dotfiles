@@ -11,7 +11,8 @@
 
 <br>
 
-![image](https://github.com/user-attachments/assets/a36dc04d-9c40-4154-bfea-38b8f28f906d)
+![image](https://github.com/user-attachments/assets/6a09b3a0-70ab-4d1a-9687-b8fb65934f60)
+
 
 
 <div align="center" id="vscode">
@@ -138,15 +139,6 @@ Set-Alias -Name neofetch -Value fastfetch
 
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/catppuccin_mocha.omp.json' | Invoke-Expression
 ```
-
+- Remove powershell greeting message by passing "--nologo" flag in startup settings
+  
 ## All configs can be found [here](https://github.com/devbutlazy/dotfiles/tree/main/wt)
-
-### [Notepad $profile (config)](https://github.com/devbutlazy/dotfiles/tree/main/wt/notepad_profile.txt)
-### [Terminal settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json)
-### [Fastfetch (neofetch) config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch)
-
-#
-
-```
-Inspired by: https://github.com/nixxoq/dotfiles
-```

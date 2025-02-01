@@ -7,15 +7,13 @@
                 "action": "copy",
                 "singleLine": false
             },
+            "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
         {
             "command": "paste",
+            "id": "User.paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": {
@@ -23,7 +21,13 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
+            "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
@@ -40,7 +44,7 @@
             "cursorShape": "filledBox",
             "elevate": false,
             "font": {
-                "face": "JetBrainsMono NF"
+                "face": "JetBrainsMono Nerd Font"
             },
             "opacity": 100
         },
@@ -49,7 +53,8 @@
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "opacity": 50
             },
             {
                 "backgroundImageOpacity": 0.3,
@@ -68,40 +73,11 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{bb16c2dd-a67a-5e24-8074-742dccd2aa3a}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{5b09494d-5a02-518f-93cb-e700c2f3cf3d}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{1bcbcdb2-5da1-54a6-9e84-87d91e9ee3d4}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022 (2)",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{218699e7-2b1e-5d98-931c-1e90e6374795}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022 (2)",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" --nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "PowerShell",
-                "commandline": "pwsh.exe -nologo",
+                "icon": "none",
+                "name": "Terminal",
                 "source": "Windows.Terminal.PowershellCore"
             }
         ]
