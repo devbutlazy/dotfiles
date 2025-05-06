@@ -1,80 +1,70 @@
 {
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.runInTerminal": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "material-icon-theme.hidesExplorerArrows": true,
     "files.autoSave": "afterDelay",
-
-    "editor.minimap.enabled": false,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-
-    "codeium.enableConfig": {
-        "*": true,
-        "bat": true,
-        "properties": true
-    },
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "window.title": " ",
+    "window.zoomLevel": 1,
+    "window.commandCenter": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right", // left, right
     "workbench.layoutControl.enabled": false,
+    "workbench.tree.indent": 14,
     "workbench.editorAssociations": {
         "*.session-journal": "sqlite-viewer.option",
         "*.session": "sqlite-viewer.option",
         "*.db": "sqlite-viewer.option"
     },
-    "workbench.colorCustomizations": {},
-    "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
     "workbench.editor.empty.hint": "hidden",
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.editor.showTabs": "single",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'bold', bold",
     "editor.codeLensFontFamily": "\"JetBrains Mono\"",
-    "workbench.sideBar.location": "right", // left, right
-    "editor.multiCursorModifier": "alt",
+    "editor.tabSize": 4,
+    "editor.multiCursorModifier": "ctrlCmd",
     "editor.linkedEditing": true,
     "editor.mouseWheelZoom": true,
-    "editor.formatOnPaste": false, // true
+    "editor.formatOnPaste": true, // true
     "editor.formatOnSave": false, // true
     "editor.fontLigatures": false,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.largeFileOptimizations": false,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.lightbulb.enabled": "off",
+    "editor.showFoldingControls": "never",
     "explorer.confirmDragAndDrop": false,
     "explorer.decorations.colors": false,
     "explorer.compactFolders": false,
-
-    "catppuccin.accentColor": "sapphire",
-    "catppuccin.bracketMode": "neovim",
-    "catppuccin.workbenchMode": "flat",
-
+    "explorer.confirmDelete": true,
+    "explorer.decorations.badges": false,
     "git.ignoreMissingGitWarning": true,
+    "git.ignoreLimitWarning": true,
     "git.openRepositoryInParentFolders": "never",
-
-    "json.schemas": [],
-
-    "window.title": " ",
-    "window.commandCenter": false,
-    "window.titleBarStyle": "native",
-    "window.customTitleBarVisibility": "auto",
-    "workbench.activityBar.location": "bottom",
-    "window.menuBarVisibility": "toggle",
-
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
     "apc.font.family": "JetBrainsMono Nerd Font",
     "apc.monospace.font.family": "JetBrainsMono Nerd Font",
     "apc.electron": {
         "frame": false,
-        "titleBarStyle": "hidden"
+        "titleBarStyle": "hidden",
     },
-    
-    "security.allowedUNCHosts": [
-        "wsl.localhost",
-        "wsl$"
-    ],
-    "git.ignoreLimitWarning": true,
     "redhat.telemetry.enabled": true,
-    "git.autofetch": true,
-    "githubPullRequests.createOnPublishBranch": "never",
-    "editor.definitionLinkOpensInPeek": true,
-    "workbench.colorTheme": "Catppuccin Mocha"
+    "breadcrumbs.enabled": false,
+    "hediet.vscode-drawio.resizeImages": null,
+    "scm.diffDecorations": "none",
+    "todohighlight.isEnable": true,
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true
 }

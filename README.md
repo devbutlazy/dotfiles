@@ -11,7 +11,7 @@
 
 <br>
 
-![image](https://github.com/user-attachments/assets/6a09b3a0-70ab-4d1a-9687-b8fb65934f60)
+![image](https://github.com/user-attachments/assets/93fa2629-46ef-42b8-ab54-451917e1bcc6)
 
 
 
@@ -19,7 +19,7 @@
 <h1>VS Code</h1>
 </div>
 
-![image](https://github.com/user-attachments/assets/77c53c36-1045-4647-ab20-a6aabd0731dd)
+![image](https://github.com/user-attachments/assets/9e3c8bb8-90d3-4d5a-ba60-400d072365c1)
 
 # 📂 Plugins
 ```
