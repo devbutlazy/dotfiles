@@ -1,0 +1,99 @@
+{
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "files.autoSave": "afterDelay",
+
+    "window.title": " ",
+    "window.zoomLevel": 1,
+    "window.commandCenter": false,
+
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right", // left, right
+    "workbench.layoutControl.enabled": false,
+    "workbench.tree.indent": 14,
+    "workbench.editorAssociations": {
+        "*.session-journal": "sqlite-viewer.option",
+        "*.session": "sqlite-viewer.option",
+        "*.db": "sqlite-viewer.option"
+    },
+    "workbench.statusBar.visible": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.editor.showTabs": "single",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
+
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'bold', bold",
+    "editor.codeLensFontFamily": "\"JetBrains Mono\"",
+    "editor.tabSize": 4,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.linkedEditing": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnPaste": false, // true
+    "editor.formatOnSave": false, // true
+    "editor.fontLigatures": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.largeFileOptimizations": false,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.lightbulb.enabled": "off",
+    "editor.showFoldingControls": "never",
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.colors": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": true,
+    "explorer.decorations.badges": false,
+
+    "git.ignoreMissingGitWarning": true,
+    "git.ignoreLimitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+
+    "apc.font.family": "JetBrainsMono Nerd Font",
+    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden",
+    },
+    "redhat.telemetry.enabled": true,
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "cmake.generator": "Ninja",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "python.defaultInterpreterPath": "\"C:\\Program Files\\Python312\\python.exe\""
+}

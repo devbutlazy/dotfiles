@@ -11,57 +11,66 @@
 
 <br>
 
-![image](https://github.com/user-attachments/assets/93fa2629-46ef-42b8-ab54-451917e1bcc6)
+![image](https://github.com/user-attachments/assets/5116ba58-f2eb-4140-b31c-cfac0bee222e)
 
 
 
 <div align="center" id="vscode">
-<h1>VS Code</h1>
+<h1>Visual Studio Code</h1>
 </div>
 
-![image](https://github.com/user-attachments/assets/9e3c8bb8-90d3-4d5a-ba60-400d072365c1)
+![image](https://github.com/user-attachments/assets/5165b2d8-6b52-441a-ad4e-3d124b6637a3)
 
 # 📂 Plugins
 ```
-Design:
-- Catppuccin for VSCode - Catppuccin Mocha (VSCode Theme)
-- Apc Customize UI ++ - customize VSCode explorer
-- Bearded Icons (VSCode Explorer icons)
-- Better Comments (Comments design with !, #, ?, etc.. prefixes)
-- Markdown All in One - System Default (README.md Preview Theme)
-- Bracket Pair Color DLW - code brackets colors
-- Error Lens - errors directly in code
+UI/UX:
+- Kanagawa Flavors (Wave)  
+- Material Icon Theme
+- Apc Customize UI ++
+- Better Comments
+- Markdown All in One 
+- Error Lens 
 
 Python:
-- Python (Python typehints)
+- Python 
 - Python Debugger 
 - Pylance 
-- Black Formater (Python PEP-8 formatter [CTRL + ALT + F])
+- Black Formater 
+
+C/C++:
+- C/C++
+- clangd 
+- CMakeTools 
+
+Go:
+- Go
 
 Automations & Help:
-- Codeium (AI with autocomplete)
-- GitHub Actions (View GitHub Actions in a tab)
-- GitHub Pull Requests (Send pull requests easily)
-- SQLite Viewer (View database files directly in VSCode)
-- YAML (.yml, .yaml files typehints)
-- Docker (Dockerfile and Docker-Compose typehints)
+- GitHub Actions 
+- GitHub Pull Requests 
+- GitLens
+- Code runner
+- Live Share
+- SQLite Viewer
+- YAML 
+- Docker
 
 Other:
-- Discord Presence (Show the coding process with details in Discord Status)
-- Polacode-2022 (Beautiful screenshots [CTRL + SHITF + P -> Polacode])
+- Discord Presence
+- Polacode-2025 
 ```
 
 # >_ Keybinds
 ```
 Comment selected code: CTRL + K + C
 Uncomment selected code: CTRL + K + U
+Open pwsh: CTRL + SHIFT + C
 Format code: SHIFT + ALT + F
-Edit multiple rows: ALT + SELECT ROWS
-Other: Default
+Edit multiple rows: CTRL + SELECT ROWS
+Other: Default ig. :/
 ```
 
-# [settings.json](https://github.com/devbutlazy/dotfiles/tree/main/vscode/settings.json)
-# [lazydev.code-profile](https://github.com/devbutlazy/dotfiles/tree/main/vscode/lazydev.code-profile)
+## [settings.json](https://github.com/devbutlazy/dotfiles/tree/main/.config/vscode/settings.json) && [lazydev.code-profile](https://github.com/devbutlazy/dotfiles/tree/main/.config/vscode/lazydev.code-profile)
 
 <div align="center" id="pycharm">
 <h1>Pycharm</h1>
@@ -77,12 +86,11 @@ Theme:
 - Markdown Default
 
 Automations & Help:
-- Codeium (AI with autocomplete)
-- Docker (Dockerfile and Docker-Compose typehints)
-- YAML Default (.yml, .yaml files typehints)
+- Docker
+- YAML Default 
 
 Other:
-- Discord Integration V2 (Show the coding process with details in Discord Status)
+- Discord Integration V2 
 ```
 
 # >_ Keybinds
@@ -106,7 +114,7 @@ Other: Default
 
 - Install [Windows Terminal](https://github.com/microsoft/terminal) (WT);
 - Install [Powershell](https://learn.microsoft.com/ru-ru/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) and configure it as default terminal in WT;
-- Download [my WT Settings](https://github.com/devbutlazy/dotfiles/tree/main/wt/settings.json) and replace them in yours;
+- Download [my WT Settings](https://github.com/devbutlazy/dotfiles/tree/main/.config/wt/settings.json) and replace them in yours;
 - Install [Scoop](https://scoop.sh/);
 - Install [Oh-My-Posh](https://ohmyposh.dev/) using scoop:
 ```
@@ -122,7 +130,7 @@ $env:Path += ";C:\Users\YOUR_USER\AppData\Local\Programs\oh-my-posh\bin"
 ```
 scoop install fastfetch
 ```
-- Copy [my fastfetch config](https://github.com/devbutlazy/dotfiles/tree/main/wt/fastfetch) to `C:\Users\<Username>\.config\fastfetch\config.conf`;
+- Copy [my fastfetch config](https://github.com/devbutlazy/dotfiles/tree/main/.config/wt/fastfetch) to `C:\Users\<Username>\.config\fastfetch\config.conf`;
 - Install eza (enhanced version of "ls" GNU command) using scoop:
 ```
 scoop install eza
@@ -141,4 +149,4 @@ oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/
 ```
 - Remove powershell greeting message by passing "--nologo" flag in startup settings
   
-## All configs can be found [here](https://github.com/devbutlazy/dotfiles/tree/main/wt)
+## All configs can be found [here](https://github.com/devbutlazy/dotfiles/tree/main/.config/wt)
