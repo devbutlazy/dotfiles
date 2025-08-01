@@ -11,15 +11,14 @@
 
 <br>
 
-![image](https://github.com/user-attachments/assets/5116ba58-f2eb-4140-b31c-cfac0bee222e)
-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9e33ae7f-b37c-4ce0-9b64-e112cb1292e3" />
 
 
 <div align="center" id="vscode">
 <h1>Visual Studio Code</h1>
 </div>
 
-![image](https://github.com/user-attachments/assets/5165b2d8-6b52-441a-ad4e-3d124b6637a3)
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/cf99ddff-c278-4f65-b8ae-4a336e4a5821" />
 
 # 📂 Plugins
 ```
