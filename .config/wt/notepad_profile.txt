@@ -2,4 +2,4 @@ Set-Alias -Name ls -Value eza
 Set-Alias -Name cat -Value bat
 Set-Alias -Name neofetch -Value fastfetch
 
-oh-my-posh init pwsh --config 'https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/ys.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/catppuccin_mocha.omp.json' | Invoke-Expression
