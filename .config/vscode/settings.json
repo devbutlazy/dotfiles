@@ -1,13 +1,20 @@
 {
+    // VSCode spec
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "material-icon-theme.hidesExplorerArrows": true,
-    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": true,
+    "inlineChat.lineNaturalLanguageHint": false,
 
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    
+    // Window
     "window.title": " ",
     "window.zoomLevel": 1,
     "window.commandCenter": false,
 
-    "workbench.activityBar.location": "bottom",
+    // Workbench
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right", // left, right
     "workbench.layoutControl.enabled": false,
@@ -24,9 +31,12 @@
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
+    "workbench.activityBar.location": "bottom",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
 
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'bold', bold",
-    "editor.codeLensFontFamily": "\"JetBrains Mono\"",
+    // Editor
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.codeLensFontFamily": "\"JetBrains Mono\", 'bold', bold",
     "editor.tabSize": 4,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.linkedEditing": true,
@@ -34,12 +44,11 @@
     "editor.formatOnPaste": false, // true
     "editor.formatOnSave": false, // true
     "editor.fontLigatures": false,
-    "editor.cursorBlinking": "smooth",
+    "editor.cursorBlinking": "expand",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.definitionLinkOpensInPeek": true,
     "editor.largeFileOptimizations": false,
-    "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.vertical": "hidden",
@@ -47,40 +56,17 @@
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.stickyScroll.enabled": false,
-    "[python]": {
-        "editor.formatOnType": true
-    },
     "editor.lightbulb.enabled": "off",
     "editor.showFoldingControls": "never",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
 
+    // Explorer
     "explorer.confirmDragAndDrop": false,
     "explorer.decorations.colors": false,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": true,
     "explorer.decorations.badges": false,
-
-    "git.ignoreMissingGitWarning": true,
-    "git.ignoreLimitWarning": true,
-    "git.openRepositoryInParentFolders": "never",
-    "git.autofetch": true,
-    "git.decorations.enabled": false,
-    "githubPullRequests.createOnPublishBranch": "never",
-
-    "apc.font.family": "JetBrainsMono Nerd Font",
-    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
-    "apc.electron": {
-        "frame": false,
-        "titleBarStyle": "hidden",
-    },
-    "redhat.telemetry.enabled": true,
-    "breadcrumbs.enabled": false,
-    "scm.diffDecorations": "none",
-    "files.insertFinalNewline": true,
-    "extensions.ignoreRecommendations": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "cmake.generator": "Ninja",
-    "C_Cpp.intelliSenseEngine": "disabled",
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
         "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -95,5 +81,45 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "python.defaultInterpreterPath": "\"C:\\Program Files\\Python312\\python.exe\""
+
+    // Git & GitHub
+    "git.ignoreMissingGitWarning": true,
+    "git.ignoreLimitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+
+    // APC
+    "apc.font.family": "JetBrainsMono Nerd Font",
+    "apc.monospace.font.family": "JetBrainsMono Nerd Font",
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden",
+    },
+
+    // Other
+    "cmake.generator": "Ninja",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "go.toolsManagement.autoUpdate": true,
+    "[python]": {
+        "editor.formatOnType": false,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+
+    "redhat.telemetry.enabled": false,
+    "scm.diffDecorations": "none",
+    "discord.suppressNotifications": true,
+    "ruff.showSyntaxErrors": false,
 }

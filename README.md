@@ -19,7 +19,6 @@ UI/UX:
 - Apc Customize UI ++
 - Better Comments
 - Markdown All in One 
-- Error Lens 
 
 Python:
 - Python 
