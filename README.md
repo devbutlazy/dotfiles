@@ -14,7 +14,7 @@
 ## 📂 Plugins
 ```
 UI/UX:
-- Kanagawa Flavors (Wave)  
+- Kanagawa Flavors (Wave)  f
 - Material Icon Theme
 - Apc Customize UI ++
 - Better Comments
@@ -89,7 +89,6 @@ Open Windows Terminal settings → PowerShell profile → add flag:
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
 
 # Add Oh-My-Posh to PATH:
-
 $env:Path += ";C:\Users\YOUR_USER\AppData\Local\Programs\oh-my-posh\bin"
 ```
 
@@ -120,14 +119,13 @@ Set-Alias -Name cat -Value bat
 Set-Alias -Name neofetch -Value fastfetch
 
 # Oh-My-Posh init
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/catppuccin_mocha.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/amro.omp.json' | Invoke-Expression
 ```
 
 ---
 ## Test Installation
 ```
-# Restart PowerShell / Windows Terminal.
-# Try out:
+# Restart PowerShell / Windows Terminal. Try out:
 ls
 cat $PROFILE
 neofetch
