@@ -16,7 +16,7 @@
 
     // Workbench
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.sideBar.location": "right", // left, right
+    "workbench.sideBar.location": "left", // left, right
     "workbench.layoutControl.enabled": false,
     "workbench.tree.indent": 14,
     "workbench.editorAssociations": {
